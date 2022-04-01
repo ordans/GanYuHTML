@@ -1,7 +1,7 @@
 
 .bg {
     background-color: rgb(38, 108, 236);
-    background-image: url('images/12.jpg');
+    background-image: url(../HTML基础/images/14.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
     width: max-content;
