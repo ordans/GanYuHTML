@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #f3f5f7;
+}
+
 .w {
     width: 1200px;
     margin: auto;
@@ -10,7 +14,6 @@
 
 .header {
     height: 42px;
-    background-color: rgb(255, 255, 255);
     margin: 30px auto;
 }
 
@@ -18,7 +21,6 @@
     float: left;
     width: 198px;
     height: 42px;
-    background-color: blueviolet;
 }
 
 li {
@@ -58,7 +60,6 @@ a {
     margin-left: 50px;
     width: 412px;
     height: 42px;
-    background-color: rgb(255, 255, 255);
 }
 
 .search input {
@@ -76,4 +77,96 @@ a {
     width: 50px;
     height: 42px;
     border: 0;
+    background: url('../HTML基础/images/btn1.png');
+}
+
+.user {
+    float: right;
+    line-height: 42px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.banner {
+    height: 421px;
+    background-color: #b9c0c2;
+}
+
+.banner .w {
+    height: 421px;
+    background: url('../HTML基础/images/21.png') no-repeat top center;
+}
+
+.subnav {
+    float: left;
+    width: 190px;
+    height: 421px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.subnav ul li {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+}
+
+.subnav ul li a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.subnav ul li a span {
+    float: right;
+}
+
+.subnav ul li a:hover {
+    color: #00a4ff;
+}
+
+.course {
+    float: right;
+    /* 浮动的盒子不会有外边距合并的问题 */
+    margin-top: 50px;
+    width: 230px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.course h2 {
+    height: 48px;
+    background-color: #9bceea;
+    text-align: center;
+    line-height: 48px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.bd {
+    padding: 0 20px;
+}
+
+.bd ul li {
+    padding: 15px 0;
+}
+
+.bd ul li h4 {
+    font-size: 16px;
+    color: #0095ff;
+}
+
+.bd ul li p {
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.bd .more {
+    display: block;
+    height: 38px;
+    margin-top: 20px;
+    border: 1px solid #00a4ff;
+    text-align: center;
+    line-height: 38px;
+    color: #00a4ff;
+    font-size: 16px;
 }
