@@ -246,6 +246,8 @@ a {
 }
 
 .box-bd ul li {
+    /* 相对定位，子绝父相 */
+    position: relative;
     float: left;
     margin-right: 15px;
     margin-bottom: 15px;
@@ -258,7 +260,7 @@ a {
     width: 1225px;
 }
 
-.box-bd ul li image {
+.box-bd ul li>image {
     width: 100%;
 }
 
@@ -290,4 +292,11 @@ a {
 
 .footer img {
     width: 100%;
+}
+
+.box-bd ul li em {
+    /* 绝对定位 */
+    position: absolute;
+    top: 0;
+    left: 0;
 }
