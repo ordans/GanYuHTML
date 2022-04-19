@@ -94,12 +94,20 @@ a {
     background: url('../HTML基础/images/btn1.png');
 }
 
+input {
+    outline: none;
+}
+
 .user {
     float: right;
     line-height: 42px;
     margin-right: 10px;
     font-size: 14px;
     color: #666;
+}
+
+.user img {
+    vertical-align: middle;
 }
 
 .banner {
